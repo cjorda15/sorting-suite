@@ -2,7 +2,7 @@ const assert = require('chai').assert
 var bubbleSort  = require('../lib/bubbleSort.js')
 
 
-describe("it should change the array ",()=>{
+describe("it should reorder the array ",()=>{
 
   it('with numbers to ascending order',()=>{
     let arr = [9,8,2,1,3,7]
